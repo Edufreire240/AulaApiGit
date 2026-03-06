@@ -20,6 +20,6 @@ APi1.get("/", (req, res)=>{
     res.send("Funcionando teste /valor apos o link")
 })
 
-APi1.listen(3005, ()=>{
+APi1.listen(3012, ()=>{
     console.log("Eduardo seu servidor esta funcionando")
 })
